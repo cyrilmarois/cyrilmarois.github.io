@@ -1,0 +1,39 @@
+#pro {
+    display: flex;
+    flex-direction: column;
+    //width: 100%;
+    background-color: cornflowerblue;
+    padding-left: 30px;
+
+    .title {
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .experience {
+        .job {
+            font-weight: bold;
+            color: yellowgreen;
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+
+        .yearNumber {
+            color: red;
+            font-weight: bold
+        }
+        .dateNumber {
+            text-transform: italic;
+        }
+        
+        .company {
+            text-transform: uppercase;
+        }
+
+        .tech {
+            font-size: 12px;
+            font-style: italic;
+            text-transform: uppercase;
+        }
+    }
+}

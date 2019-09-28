@@ -1,0 +1,32 @@
+#school {
+    display: flex;
+    flex-direction: column;
+    //width: 100%;
+    background-color: cornflowerblue;
+    padding-left: 30px;
+
+    .title {
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin: 20px 0 20px 0;
+    }
+    .experience {
+        margin: 0 0 20px 20px;
+        .job {
+            font-weight: bold;
+            color: yellowgreen;
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+        
+        .company {
+            text-transform: uppercase;
+        }
+
+        .tech {
+            font-size: 12px;
+            font-style: italic;
+        }
+    }
+}
